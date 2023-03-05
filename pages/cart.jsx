@@ -19,8 +19,8 @@ const Cart = () => {
               <div className={styles.imgContainer}>
                 <Image
                   src="/img/pizza.png"
-                  layout="fill"
-                  objectFit="cover"
+                  fill
+                  style={{ objectFit: "cover" }}
                   alt=""
                 />
               </div>
@@ -48,8 +48,8 @@ const Cart = () => {
               <div className={styles.imgContainer}>
                 <Image
                   src="/img/pizza.png"
-                  layout="fill"
-                  objectFit="cover"
+                  fill
+                  style={{ objectFit: "cover" }}
                   alt=""
                 />
               </div>
